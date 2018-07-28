@@ -17,6 +17,10 @@ def take_a_number(a, item)
 end
 
 def now_serving(a)
-  i = a.shift
-  
+  if a.nil? || a.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    i = a.shift
+    
+  end
 end

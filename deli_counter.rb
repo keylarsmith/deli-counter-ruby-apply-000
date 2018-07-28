@@ -10,3 +10,6 @@ def line(a)
     puts res.join(" ")
   end
 end
+
+def take_a_number()
+end

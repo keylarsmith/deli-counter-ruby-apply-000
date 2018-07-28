@@ -17,5 +17,6 @@ def take_a_number(a, item)
 end
 
 def now_serving(a)
+  i = a.shift
   
 end

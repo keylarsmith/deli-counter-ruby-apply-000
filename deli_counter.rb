@@ -11,5 +11,7 @@ def line(a)
   end
 end
 
-def take_a_number()
+def take_a_number(a, item)
+  a << item
+  puts "Welcome, #{item}. You are number #{a.size} in line."
 end
